@@ -11,9 +11,9 @@ branches:
 os: linux
 dist: bionic
 
-cache:
-  directories:
-    - ${TRAVIS_BUILD_DIR}/lib
+# cache:
+#   directories:
+#     - ${TRAVIS_BUILD_DIR}/lib
 
 matrix:
   include:
